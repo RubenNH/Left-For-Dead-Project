@@ -4,7 +4,7 @@ using System.Collections;
 public class BulletScript : MonoBehaviour {
 
 	[Tooltip("Furthest distance bullet will look for target")]
-	public float maxDistance = 1000000;
+	public float maxDistance = 350;
 	RaycastHit hit;
 	[Tooltip("Prefab of wall damange hit. The object needs 'LevelPart' tag to create decal on it.")]
 	public GameObject decalHitWall;
