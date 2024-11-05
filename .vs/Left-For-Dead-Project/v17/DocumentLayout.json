@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\",
+  "WorkspaceRootPath": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\destroyaftertimeparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\destroyaftertimeparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|c:\\users\\cc11-2024.cc11-pc24-sd24\\videos\\gallery report\\left-for-dead-project\\assets\\easy fps\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\gunscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\gunscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\mouselookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\mouselookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\mouselookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|c:\\users\\jorge\\documents\\videojuego\\left-for-dead-project\\assets\\scripts\\caminantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\caminantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\destroyaftertimeparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\destroyaftertimeparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\gunscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\gunscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,15 +38,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "CaminanteController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Scripts\\CaminanteController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CaminanteController.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Scripts\\CaminanteController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CaminanteController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T16:08:25.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerMovementScript.cs",
-              "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
-              "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
               "ViewState": "AgIAAEIBAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -50,23 +67,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MouseLookScript.cs",
-              "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
-              "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAmwMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T22:25:25.445Z"
+              "WhenOpened": "2024-10-25T22:25:25.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GunScript.cs",
-              "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunScript.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\GunScript.cs",
-              "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunScript.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunScript.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\GunScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,37 +92,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DestroyAfterTimeParticle.cs",
-              "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
-              "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T22:24:30.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T22:24:30.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BulletScript.cs",
-              "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\BulletScript.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\BulletScript.cs",
-              "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\BulletScript.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\BulletScript.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\BulletScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T22:23:00.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T22:23:00.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GunInventory.cs",
-              "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunInventory.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\GunInventory.cs",
-              "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunInventory.cs",
+              "ToolTip": "C:\\Users\\jorge\\Documents\\Videojuego\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunInventory.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\GunInventory.cs",
               "ViewState": "AgIAAP0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
