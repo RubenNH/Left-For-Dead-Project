@@ -70,7 +70,7 @@ public class PlayerMovementScript : MonoBehaviour {
 		if (Input.GetAxis ("Horizontal") != 0 || Input.GetAxis ("Vertical") != 0) {
 			deaccelerationSpeed = 0.5f;
 		} else {
-			deaccelerationSpeed = 0.1f;
+			deaccelerationSpeed = 0.2f;
 		}
 	}
 	/*
@@ -181,7 +181,7 @@ public class PlayerMovementScript : MonoBehaviour {
 
 
 	[Tooltip("Force that is applied when moving forward or backward")]
-	public float accelerationSpeed = 50000.0f;
+	public float accelerationSpeed = 70000.0f;
 
 
 	[Tooltip("Tells us weather the player is grounded or not.")]
