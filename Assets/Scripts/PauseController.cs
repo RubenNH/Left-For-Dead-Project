@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,11 @@ public class PauseController : MonoBehaviour
 {
     public GameObject pauseMenu;
     private bool isPaused = false;
+    public GunScript gunScript;
+    public MouseLookScript mouseLookScript;
+    public PlayerMovementScript playerMovementScript;
+    // Reference to the GameObject controlling the player's weapons
+    public GameObject playerController; // Assign this in the Unity Editor or dynamically
 
     void Update()
     {
@@ -20,14 +26,40 @@ public class PauseController : MonoBehaviour
     {
         isPaused = !isPaused;
         pauseMenu.SetActive(isPaused);
-        Time.timeScale = isPaused ? 0 : 1; // Pause/unpause the game
+
+        if (isPaused)
+        {
+            PauseGame();
+        }
+        else
+        {
+            ResumeGame();
+        }
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0; // Pause the game physics
+        if (playerController != null)
+        {
+            gunScript.enabled = false;
+            mouseLookScript.enabled = false;
+            playerMovementScript.enabled = false;
+        }
     }
 
     public void ResumeGame()
     {
-        isPaused = false;
+        Time.timeScale = 1; // Resume the game physics
+        if (playerController != null)
+        {
+            gunScript.enabled = true;
+            mouseLookScript.enabled = true;
+            playerMovementScript.enabled = true;
+        }
+
         pauseMenu.SetActive(false);
-        Time.timeScale = 1;
+        isPaused = false;
     }
 
     public void ReturnToMainMenu()

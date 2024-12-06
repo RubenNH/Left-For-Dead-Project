@@ -7,6 +7,7 @@ TagManager:
   - SecondCamera
   - BulletSpawn
   - Weapon
+  - SpawnZone
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
+using Random = UnityEngine.Random;
+
 //using UnityStandardAssets.ImageEffects;
 
 public enum GunStyles{
@@ -257,13 +261,16 @@ public class GunScript : MonoBehaviour {
 	 * After calculation the recoil amount are decreased to 0.
 	 */
 	void PositionGun(){
-		transform.position = Vector3.SmoothDamp(transform.position,
-			mainCamera.transform.position  - 
-			(mainCamera.transform.right * (currentGunPosition.x + currentRecoilXPos)) + 
-			(mainCamera.transform.up * (currentGunPosition.y+ currentRecoilYPos)) + 
-			(mainCamera.transform.forward * (currentGunPosition.z + currentRecoilZPos)),ref velV, 0);
-
-
+		try
+		{
+			transform.position = Vector3.SmoothDamp(transform.position,
+				mainCamera.transform.position  - 
+				(mainCamera.transform.right * (currentGunPosition.x + currentRecoilXPos)) + 
+				(mainCamera.transform.up * (currentGunPosition.y+ currentRecoilYPos)) + 
+				(mainCamera.transform.forward * (currentGunPosition.z + currentRecoilZPos)),ref velV, 0);
+		}catch(Exception ex){
+			print("Error in PositionGun() -> " + ex.StackTrace.ToString());
+		}
 
 		pmS.cameraPosition = new Vector3(currentRecoilXPos,currentRecoilYPos, 0);
 
