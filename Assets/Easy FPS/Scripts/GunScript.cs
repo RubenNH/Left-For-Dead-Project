@@ -413,51 +413,84 @@ public class GunScript : MonoBehaviour {
 	public GameObject muzzelSpawn;
 	private GameObject holdFlash;
 	private GameObject holdSmoke;
-	/*
+    /*
 	 * Called from Shooting();
 	 * Creates bullets and muzzle flashes and calls for Recoil.
 	 */
-	private void ShootMethod(){
-		if(waitTillNextFire <= 0 && !reloading && pmS.maxSpeed < 5){
 
-			if(bulletsInTheGun > 0){
+    public float bulletSpeed = 20f; // Velocidad de la bala
 
-				int randomNumberForMuzzelFlash = Random.Range(0,5);
-				if (bullet)
-					Instantiate (bullet, bulletSpawnPlace.transform.position, bulletSpawnPlace.transform.rotation);
+	private void ShootMethod()
+	{
+		if (waitTillNextFire <= 0 && !reloading && pmS.maxSpeed < 5)
+		{
+			if (bulletsInTheGun > 0)
+			{
+				// Crear el destello del cañón
+				int randomNumberForMuzzelFlash = Random.Range(0, 5);
+
+				if (bullet != null && bulletSpawnPlace != null)
+				{
+					// Instanciar la bala
+					GameObject newBullet = Instantiate(bullet, bulletSpawnPlace.transform.position, bulletSpawnPlace.transform.rotation);
+
+					// Asegurarse de que la bala se mueva
+					Rigidbody bulletRb = newBullet.GetComponent<Rigidbody>();
+					if (bulletRb != null)
+					{
+						bulletRb.velocity = bulletSpawnPlace.transform.forward * bulletSpeed; // Ajusta la velocidad de la bala
+					}
+					else
+					{
+						Debug.LogWarning("La bala no tiene un Rigidbody. No se podrá mover.");
+					}
+				}
 				else
-					print ("Missing the bullet prefab");
-				holdFlash = Instantiate(muzzelFlash[randomNumberForMuzzelFlash], muzzelSpawn.transform.position /*- muzzelPosition*/, muzzelSpawn.transform.rotation * Quaternion.Euler(0,0,90) ) as GameObject;
-				holdFlash.transform.parent = muzzelSpawn.transform;
-				if (shoot_sound_source)
-					shoot_sound_source.Play ();
-				else
-					print ("Missing 'Shoot Sound Source'.");
+				{
+					Debug.LogWarning("Faltan asignaciones de 'bullet' o 'bulletSpawnPlace'.");
+				}
 
+				// Instanciar el efecto de disparo
+				if (muzzelFlash.Length > 0)
+				{
+					holdFlash = Instantiate(muzzelFlash[randomNumberForMuzzelFlash], muzzelSpawn.transform.position, muzzelSpawn.transform.rotation * Quaternion.Euler(0, 0, 90)) as GameObject;
+					holdFlash.transform.parent = muzzelSpawn.transform;
+				}
+				else
+				{
+					Debug.LogWarning("Faltan los efectos de destello del cañón.");
+				}
+
+				// Reproducir sonido de disparo
+				if (shoot_sound_source != null)
+				{
+					shoot_sound_source.Play();
+				}
+				else
+				{
+					Debug.LogWarning("Falta la fuente de sonido para disparos.");
+				}
+
+				// Aplicar retroceso
 				RecoilMath();
 
+				// Actualizar tiempos y cantidad de balas
 				waitTillNextFire = 1;
 				bulletsInTheGun -= 1;
 			}
-				
-			else{
-				//if(!aiming)
+			else
+			{
+				// Si no hay balas, empezar la recarga
 				StartCoroutine("Reload_Animation");
-				//if(emptyClip_sound_source)
-				//	emptyClip_sound_source.Play();
 			}
-
 		}
-
 	}
 
-
-
-	/*
-	* Reloading, setting the reloading to animator,
-	* Waiting for 2 seconds and then seeting the reloaded clip.
-	*/
-	[Header("reload time after anima")]
+            /*
+            * Reloading, setting the reloading to animator,
+            * Waiting for 2 seconds and then seeting the reloaded clip.
+            */
+            [Header("reload time after anima")]
 	[Tooltip("Time that passes after reloading. Depends on your reload animation length, because reloading can be interrupted via meele attack or running. So any action before this finishes will interrupt reloading.")]
 	public float reloadChangeBulletsTime;
 	IEnumerator Reload_Animation(){
