@@ -13,6 +13,6 @@ public class FinishZone : MonoBehaviour
     }
 
     void EndGame() {
-        SceneManager.LoadScene("WINSCENE"); // Replace with your win scene name
+        SceneManager.LoadScene("Menus"); // Replace with your win scene name
     }
 }

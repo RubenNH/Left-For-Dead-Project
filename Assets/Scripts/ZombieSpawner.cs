@@ -5,10 +5,10 @@ public class ZombieSpawner : MonoBehaviour
 {
     public GameObject zombiePrefab; // Assign the zombie prefab in the Inspector
     public List<Transform> spawnZones; // Add spawn zones in the Inspector
-    public int maxZombies = 40;
+    public int maxZombies = 70;
     private int currentZombieCount = 0;
 
-    public float spawnInterval = 3f; // Time between spawns
+    public float spawnInterval = 2f; // Time between spawns
 
     void Start()
     {
@@ -30,8 +30,7 @@ public class ZombieSpawner : MonoBehaviour
         // Randomly pick a spawn zone
         Transform spawnZone = spawnZones[Random.Range(0, spawnZones.Count)];
 
-        //ramdomly spawn into 3 to 5 zombies
-        int randomZombie = Random.Range(3, 6);
+        int randomZombie = Random.Range(6, 12);
         for (int i = 0; i < randomZombie; i++)
         {
             Instantiate(zombiePrefab, spawnZone.position, spawnZone.rotation);

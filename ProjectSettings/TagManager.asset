@@ -8,6 +8,8 @@ TagManager:
   - BulletSpawn
   - Weapon
   - SpawnZone
+  - Level
+  - Zombie
   layers:
   - Default
   - TransparentFX
