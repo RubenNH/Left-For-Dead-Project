@@ -10,7 +10,7 @@ public class CaminanteController : MonoBehaviour
     Transform player;
 
     public float attackRange = 0.8f; // Distance to start attacking
-    public float health = 50f;
+    public float health = 30f;
     private bool isDead = false;
     public float attackCooldown = 0.3f; // Time between attacks
     private float attackTimer; // Tracks time since last attack
