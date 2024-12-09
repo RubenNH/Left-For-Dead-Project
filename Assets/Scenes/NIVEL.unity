@@ -16915,6 +16915,28 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 38628277}
+--- !u!114 &307497196 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11478776, guid: c391f12a928274acab8576bb6030641d, type: 3}
+  m_PrefabInstance: {fileID: 1607885730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307497185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f828f55f50faf4017b1bfaaca53ebd71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &307497197 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11415148, guid: c391f12a928274acab8576bb6030641d, type: 3}
+  m_PrefabInstance: {fileID: 1607885730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307497185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97308ddfdff1d496cb759a41c819b13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &309520091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26918,7 +26940,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1000
   m_TargetDisplay: 0
 --- !u!224 &687799151
 RectTransform:
@@ -27172,7 +27194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &691076610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27187,8 +27209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 687799147}
   gunScript: {fileID: 0}
-  mouseLookScript: {fileID: 0}
-  playerMovementScript: {fileID: 0}
+  mouseLookScript: {fileID: 307497196}
+  playerMovementScript: {fileID: 307497197}
   playerController: {fileID: 307497185}
 --- !u!4 &691076611
 Transform:
@@ -48762,6 +48784,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 10242022, guid: c391f12a928274acab8576bb6030641d, type: 3}
+      propertyPath: m_OffsetZ
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 11414154, guid: c391f12a928274acab8576bb6030641d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -61127,7 +61153,6 @@ SceneRoots:
   - {fileID: 1378395757}
   - {fileID: 2122353870}
   - {fileID: 931030490}
-  - {fileID: 687799151}
   - {fileID: 508451189}
   - {fileID: 691076611}
   - {fileID: 32819684}
@@ -61142,3 +61167,4 @@ SceneRoots:
   - {fileID: 1021371235}
   - {fileID: 230305736}
   - {fileID: 583539853}
+  - {fileID: 687799151}

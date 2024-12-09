@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\scripts\\caminantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|c:\\users\\cc11-2024.cc11-pc24-sd24\\videos\\gallery report\\left-for-dead-project\\assets\\scripts\\caminantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\caminantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|c:\\users\\cc11-2024.cc11-pc24-sd24\\videos\\gallery report\\left-for-dead-project\\assets\\easy fps\\scripts\\mouselookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\mouselookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\mouselookscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F395BAA2-E019-3451-9A26-01D1CACCAC64}|Assembly-CSharp.csproj|solutionrelative:assets\\easy fps\\scripts\\guninventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CaminanteController.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Scripts\\CaminanteController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CaminanteController.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerMovementScript.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\PlayerMovementScript.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MouseLookScript.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
@@ -75,12 +75,11 @@
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\MouseLookScript.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAmwMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T22:25:25.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T22:25:25.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GunScript.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\GunScript.cs",
@@ -92,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DestroyAfterTimeParticle.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\DestroyAfterTimeParticle.cs",
@@ -104,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BulletScript.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\BulletScript.cs",
@@ -116,15 +115,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "GunInventory.cs",
               "DocumentMoniker": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Easy FPS\\Scripts\\GunInventory.cs",
               "ToolTip": "C:\\Users\\CC11-2024.CC11-PC24-SD24\\Videos\\gallery report\\Left-For-Dead-Project\\Assets\\Easy FPS\\Scripts\\GunInventory.cs",
               "RelativeToolTip": "Assets\\Easy FPS\\Scripts\\GunInventory.cs",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwLkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T22:22:03.36Z"
+              "WhenOpened": "2024-10-25T22:22:03.36Z",
+              "EditorCaption": ""
             }
           ]
         }

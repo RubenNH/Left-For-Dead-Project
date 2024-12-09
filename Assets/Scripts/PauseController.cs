@@ -39,12 +39,16 @@ public class PauseController : MonoBehaviour
 
     public void PauseGame()
     {
-        Time.timeScale = 0; // Pause the game physics
+        Time.timeScale = 0.001f; // Pause the game physics
         if (playerController != null)
         {
+            gunScript = GameObject.Find("NewGun_auto(Clone)").GetComponent<GunScript>();
             gunScript.enabled = false;
             mouseLookScript.enabled = false;
             playerMovementScript.enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+
+
         }
     }
 
@@ -56,6 +60,7 @@ public class PauseController : MonoBehaviour
             gunScript.enabled = true;
             mouseLookScript.enabled = true;
             playerMovementScript.enabled = true;
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
         pauseMenu.SetActive(false);
