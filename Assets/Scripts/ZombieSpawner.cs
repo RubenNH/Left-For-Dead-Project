@@ -8,7 +8,7 @@ public class ZombieSpawner : MonoBehaviour
     public int maxZombies = 40;
     private int currentZombieCount = 0;
 
-    public float spawnInterval = 5f; // Time between spawns
+    public float spawnInterval = 3f; // Time between spawns
 
     void Start()
     {
@@ -30,9 +30,14 @@ public class ZombieSpawner : MonoBehaviour
         // Randomly pick a spawn zone
         Transform spawnZone = spawnZones[Random.Range(0, spawnZones.Count)];
 
-        // Spawn a zombie
-        Instantiate(zombiePrefab, spawnZone.position, spawnZone.rotation);
-        currentZombieCount++;
+        //ramdomly spawn into 3 to 5 zombies
+        int randomZombie = Random.Range(3, 6);
+        for (int i = 0; i < randomZombie; i++)
+        {
+            Instantiate(zombiePrefab, spawnZone.position, spawnZone.rotation);
+        }
+
+        currentZombieCount += randomZombie;
     }
 
     public void ZombieKilled()
